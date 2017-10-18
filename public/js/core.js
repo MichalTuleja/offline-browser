@@ -101,7 +101,7 @@ function saveToIndex(data) {
 function fetchUrl(pageUrl) {
 	$('#status').text('Loading ' + pageUrl + '...');
 
-	var fullUrl = 'backend/'
+	var fullUrl = 'api/v1/fetch'
 		+ '?url=' + pageUrl;
 
 	var success = function(data) {
